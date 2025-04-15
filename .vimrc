@@ -1,4 +1,4 @@
-colorscheme evening
+colorscheme pablo
 syntax on
 set number
 set cursorline
@@ -41,4 +41,9 @@ vnoremap <leader>p "+p
 " inoremap { {}<left>
 
 " set mouse = a
-" set tabstop = 8
+set tabstop=4
+set autoindent
+
+nnoremap prs $a<return>printf("");<left><left><left>
+nnoremap prd $a<return>printf("%d\n", );<left><left>
+inoremap { {}<left><return><up><right><return><tab>
