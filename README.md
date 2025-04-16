@@ -1,8 +1,7 @@
 # My Vim Configuration Without Plugins
 
-## How to install 📦
-
 ```bash 
-git clone https://github.com/032nnxkitty/vimrc.git ~/.Vim_Config
-echo "source ~/.Vim_Config/.vimrc" > ~/.vimrc
+git clone https://github.com/032nnxkitty/vimrc.git ~/vim_config
+cp ~/vim_config/.vimrc ~/.vimrc
+rm -rf ~/vim_config
 ```
