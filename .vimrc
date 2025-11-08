@@ -46,5 +46,3 @@ nnoremap prd $a<return>printf("%d\n", );<left><left>
 " Custom 
 nnoremap ds d$
 inoremap jj <Esc>
-inoremap {} {}<Left><CR><CR><Up><Tab>
-"inoremap {} {}<left><return><up><right><return><tab>

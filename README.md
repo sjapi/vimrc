@@ -1,7 +1,7 @@
-# My Vim Configuration Without Plugins
+# My vim config with no plugins
 
 ```bash 
-git clone https://github.com/032nnxkitty/vimrc.git ~/vim_config
-cp ~/vim_config/.vimrc ~/.vimrc
-rm -rf ~/vim_config
+git clone https://github.com/sjapi/vimrc.git
+cp ~/vimrc/.vimrc ~/.vimrc
+rm -rf ~/vimrc
 ```
